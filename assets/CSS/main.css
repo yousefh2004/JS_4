@@ -1,0 +1,45 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-left:200px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    border-radius: 50px;
+}
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+}
+h2{
+    color: #fff;
+    width: 400px; ;
+    font-size:small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 520px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+body{
+    background:linear-gradient(110deg,rgb(75, 6, 6),rgb(39, 5, 68),rgb(85, 89, 10),rgb(3, 45, 4));
+    background-size: 300% 300%;
+    animation : color 10s ease-in-out infinite;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
